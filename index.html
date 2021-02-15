@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Expense Tracker</title>
+</head>
+<body>
+  
+  <form class="app" name="myform">
+  <div class="head">
+    <h1>Expense Tracker</h1>
+    <h3>Add A New Item:</h3>
+    <div class="options">
+      <div class="nameBlock">
+        <label for="name">Name:</label><input id="name" class="req" type="text" placeholder="Enter the name" autocomplete="off" />
+      </div>
+      <div class="bottomBlock">
+        <label for="date">Date:</label><input id="date" class="req" type="date"/>
+        <label for="amount">Amount:</label><input id="amount" class="req" type="number" placeholder="Enter the amount" autocomplete="off"/>
+      </div>
+     
+    </div>
+    <button id="addExspense">Add Exspense</button>
+  </div>
+</form>
+<div class="main">
+    <div class="headMain">
+       <div class="nameTitle">
+          <b>Name</b>
+       </div>
+       <div class="dateTitle">
+          <b>Date</b>
+       </div>
+       <div class="amountTitle">
+          <b>Amount</b>
+       </div>
+    </div>
+
+  <ul class="items">
+    <!-- <li class="item">
+      <div class="nameEx">Сільпо</div>
+      <div class="dateEx">2021 2 12</div>
+      <div class="amountEx">200</div>
+      <div class="delete">&times;</div>
+    </li> -->
+  </ul>
+    
+  </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
